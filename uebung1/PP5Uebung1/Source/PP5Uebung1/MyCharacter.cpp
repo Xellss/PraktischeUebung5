@@ -31,7 +31,7 @@ void AMyCharacter::PickUpAmmo() {
 }
 
 void AMyCharacter::AttackPlayer() {
-	if (this->Ammo > 1)
+	if (this->Ammo > 0)
 	{
 		this->Ammo--;
 

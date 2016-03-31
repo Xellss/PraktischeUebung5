@@ -38,4 +38,5 @@ public:
 	UFUNCTION(Category = "default", BlueprintCallable)
 		void AttackPlayer();
 
+
 };
