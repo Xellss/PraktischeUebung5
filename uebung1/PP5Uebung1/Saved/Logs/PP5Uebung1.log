@@ -1,0 +1,126 @@
+﻿[2016.03.31-13.51.16:893][  0]Log file open, 03/31/16 15:51:16
+[2016.03.31-13.51.16:893][  0]LogInit:Display: Running engine for game: PP5Uebung1
+[2016.03.31-13.51.16:893][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.31-13.51.16:893][  0]LogInit:Display: RandInit(267943356) SRandInit(267943357).
+[2016.03.31-13.51.16:893][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.31-13.51.16:893][  0]LogStats: Stats thread started at 0.065684
+[2016.03.31-13.51.16:893][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.31-13.51.16:893][  0]LogInit: API Version: 2758231
+[2016.03.31-13.51.16:893][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.03.31-13.51.16:893][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.31-13.51.16:893][  0]LogInit: Build Configuration: Development
+[2016.03.31-13.51.16:893][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.31-13.51.16:893][  0]LogInit: Command line:  
+[2016.03.31-13.51.16:893][  0]LogInit: Base directory: D:/Program Files/Unreal Engine/4.10/Engine/Binaries/Win64/
+[2016.03.31-13.51.16:893][  0]LogInit: Rocket: 1
+[2016.03.31-13.51.16:898][  0]LogInit: Using libcurl 7.41.0
+[2016.03.31-13.51.16:898][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.31-13.51.16:898][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.31-13.51.16:898][  0]LogInit:  - other features:
+[2016.03.31-13.51.16:898][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.31-13.51.16:898][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.31-13.51.16:898][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.31-13.51.16:898][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.31-13.51.16:898][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.31-13.51.16:898][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.31-13.51.16:898][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.31-13.51.16:898][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.31-13.51.16:898][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.31-13.51.16:898][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.31-13.51.16:903][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.31-13.51.16:909][  0]LogInit: Object subsystem initialized
+[2016.03.31-13.51.16:911][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-13.51.16:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.31-13.51.16:919][  0]LogInit: Computer: HH-WS-15
+[2016.03.31-13.51.16:919][  0]LogInit: User: Student
+[2016.03.31-13.51.16:919][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.31-13.51.16:919][  0]LogInit: High frequency timer resolution =2.338345 MHz
+[2016.03.31-13.51.16:920][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.31-13.51.16:920][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-13.51.16:920][  0]LogMemory: Process Physical Memory: 54.82 MB used, 54.82 MB peak
+[2016.03.31-13.51.16:920][  0]LogMemory: Process Virtual Memory: 58.79 MB used, 58.79 MB peak
+[2016.03.31-13.51.16:920][  0]LogMemory: Physical Memory: 6331.01 MB used, 16306.39 MB total
+[2016.03.31-13.51.16:920][  0]LogMemory: Virtual Memory: 365.34 MB used, 134217728.00 MB total
+[2016.03.31-13.51.16:949][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.31-13.51.17:393][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 880M (Feature Level 11_0)
+[2016.03.31-13.51.17:393][  0]LogD3D11RHI: Adapter has 8069MB of dedicated video memory, 0MB of dedicated system memory, and 8153MB of shared system memory, 1 output[s]
+[2016.03.31-13.51.17:399][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) Iris(TM) Pro Graphics 5200 (Feature Level 11_0)
+[2016.03.31-13.51.17:399][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2016.03.31-13.51.17:400][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.31-13.51.17:400][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.31-13.51.17:400][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.31-13.51.17:414][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.31-13.51.17:414][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.31-13.51.17:427][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.31-13.51.17:443][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/Intermediate/Shaders/WorkingDirectory/71876/).
+[2016.03.31-13.51.17:443][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/B6371A744D1954A455BAACBC16BA27A0/'.
+[2016.03.31-13.51.17:443][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.31-13.51.18:089][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.31-13.51.18:092][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.31-13.51.18:095][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.31-13.51.18:098][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.31-13.51.18:101][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.31-13.51.18:104][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.31-13.51.18:106][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.31-13.51.18:108][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.31-13.51.18:110][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.31-13.51.18:112][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.31-13.51.18:114][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.31-13.51.18:119][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.31-13.51.18:119][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.31-13.51.18:120][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.31-13.51.18:135][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.31-13.51.18:137][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.31-13.51.18:140][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.31-13.51.18:143][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.31-13.51.18:143][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.31-13.51.18:195][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.31-13.51.18:232][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.31-13.51.18:232][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.31-13.51.18:232][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.31-13.51.18:232][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.31-13.51.18:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.31-13.51.18:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.31-13.51.18:289][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.31-13.51.18:301][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.31-13.51.18:452][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-13.51.18:455][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.31-13.51.18:555][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.31-13.51.18:555][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.31-13.51.18:765][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.31-13.51.19:444][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.03.31-13.51.19:511][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.31-13.51.19:733][  0]SourceControl: Info Source control is disabled
+[2016.03.31-13.51.19:759][  0]SourceControl: Info Source control is disabled
+[2016.03.31-13.51.19:765][  0]SourceControl: Info Source control is disabled
+[2016.03.31-13.51.19:770][  0]SourceControl: Info Source control is disabled
+[2016.03.31-13.51.19:906][  0]LogObj: 28815 objects as part of root set at end of initial load.
+[2016.03.31-13.51.19:906][  0]LogUObjectAllocator: 6139776 out of 0 bytes used by permanent object pool.
+[2016.03.31-13.51.19:958][  0]LogEngine: Initializing Engine...
+[2016.03.31-13.51.19:960][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.31-13.51.19:960][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.31-13.51.20:054][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.31-13.51.20:057][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-13.51.20:070][  0]LogInit: FAudioDevice initialized.
+[2016.03.31-13.51.20:088][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.31-13.51.20:092][  0]LogInit: Texture streaming: Enabled
+[2016.03.31-13.51.20:095][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.31-13.51.20:095][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.31-13.51.20:095][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d21b60f0409136f5f2ff2f8aa6df408b|b633272edeae45bc948dd7e1a02f0764|70e1145d-c4b1-41db-a73d-61b445b3af9a
+[2016.03.31-13.51.20:095][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.31-13.51.20:112][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.31-13.51.20:112][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.31-13.51.20:126][  0]LogInit: Transaction tracking system initialized
+[2016.03.31-13.51.20:151][  0]BlueprintLog: New page: Editor Load
+[2016.03.31-13.51.20:207][  0]LocalizationService: Info Localization service is disabled
+[2016.03.31-13.51.20:343][  0]LogConsoleResponse:Display: 
+[2016.03.31-13.51.20:437][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.31-13.51.20:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/Content/' took 0.01s
+[2016.03.31-13.51.20:475][  0]SourceControl: Info Source control is disabled
+[2016.03.31-13.51.20:475][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.31-13.51.20:476][  0]LightingResults: New page: Lighting Build
+[2016.03.31-13.51.20:477][  0]MapCheck: New page: Map Check
+[2016.03.31-13.51.20:477][  0]LightingResults: New page: Lighting Build
+[2016.03.31-13.51.20:488][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006CEA5B6AC0
+[2016.03.31-13.51.20:692][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.03.31-13.51.20:698][  0]LogEditorServer: Finished looking fo

@@ -1,0 +1,45 @@
+﻿[2016.03.31-13.48.56:916][  0]Log file open, 03/31/16 15:48:56
+[2016.03.31-13.48.56:916][  0]LogInit:Display: Running engine for game: PP5Uebung1
+[2016.03.31-13.48.56:916][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.31-13.48.56:916][  0]LogInit:Display: RandInit(-59218401) SRandInit(-59218401).
+[2016.03.31-13.48.56:916][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.31-13.48.56:916][  0]LogStats: Stats thread started at 0.062457
+[2016.03.31-13.48.56:916][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.48.58:348][  0]Running D:/Program Files/Unreal Engine/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe PP5Uebung1 Development Win64 -project="C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/PP5Uebung1.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.03.31-13.49.01:055][  0]@progress push 5%
+[2016.03.31-13.49.01:457][  0]Parsing headers for PP5Uebung1Editor
+[2016.03.31-13.49.01:457][  0]  Running UnrealHeaderTool "C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/PP5Uebung1.uproject" "C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Intermediate\Build\Win64\PP5Uebung1Editor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.03.31-13.49.06:661][  0]Reflection code generated for PP5Uebung1Editor in 5,2158086 seconds
+[2016.03.31-13.49.06:763][  0]@progress pop
+[2016.03.31-13.49.09:265][  0]Performing 7 actions (4 in parallel)
+[2016.03.31-13.49.09:265][  0][3/7] Resource ModuleVersionResource.rc.inl
+[2016.03.31-13.49.09:266][  0][2/7] Resource PCLaunch.rc
+[2016.03.31-13.49.09:368][  0]PCH.PP5Uebung1.h.cpp
+[2016.03.31-13.49.24:386][  0]PP5Uebung1.cpp
+[2016.03.31-13.49.24:386][  0]MyCharacter.cpp
+[2016.03.31-13.49.24:386][  0]PP5Uebung1.generated.cpp
+[2016.03.31-13.49.24:386][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): error C2228: Links von ".Ammo" m?ssen sich in einer Klasse/Struktur/Union befinden
+[2016.03.31-13.49.24:386][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): note: Typ ist "AMyCharacter *const "
+[2016.03.31-13.49.24:386][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): note: Wollten Sie stattdessen "->" verwenden?
+[2016.03.31-13.49.24:687][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.31-13.49.24:687][  0]ERROR: UBT ERROR: Failed to produce item: C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Binaries\Win64\UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.49.24:687][  0]Total build time: 26,26 seconds
+[2016.03.31-13.49.24:956][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.49.27:190][  0]LogExit: Preparing to exit.
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.31-13.49.27:191][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.31-13.49.27:191][  0]LogExit: Exiting.
+[2016.03.31-13.49.27:192][  0]Log file closed, 03/31/16 15:49:27

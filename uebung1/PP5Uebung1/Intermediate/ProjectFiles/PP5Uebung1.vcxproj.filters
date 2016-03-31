@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PP5Uebung1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B00CC21E-878E-4882-8C74-7D1B802D54F8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PP5Uebung1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PP5Uebung1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B1F882E1-F29E-42D7-A09E-ACD7CD8B6DB7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PP5Uebung1">
+			<UniqueIdentifier>{C03C23FE-9F90-411C-94BC-A05823DC71F3}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PP5Uebung1\MyCharacter.cpp">
+			<Filter>Source\PP5Uebung1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PP5Uebung1\MyCharacter.h">
+			<Filter>Source\PP5Uebung1</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\PP5Uebung1\PP5Uebung1.Build.cs">
+			<Filter>Source\PP5Uebung1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PP5Uebung1\PP5Uebung1.cpp">
+			<Filter>Source\PP5Uebung1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PP5Uebung1\PP5Uebung1.h">
+			<Filter>Source\PP5Uebung1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

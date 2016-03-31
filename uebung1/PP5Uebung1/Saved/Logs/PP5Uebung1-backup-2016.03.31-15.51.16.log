@@ -1,0 +1,37 @@
+﻿[2016.03.31-13.49.58:074][  0]Log file open, 03/31/16 15:49:58
+[2016.03.31-13.49.58:074][  0]LogInit:Display: Running engine for game: PP5Uebung1
+[2016.03.31-13.49.58:074][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.31-13.49.58:074][  0]LogInit:Display: RandInit(83684411) SRandInit(83684412).
+[2016.03.31-13.49.58:074][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.31-13.49.58:074][  0]LogStats: Stats thread started at 0.064878
+[2016.03.31-13.49.58:074][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.49.59:444][  0]Running D:/Program Files/Unreal Engine/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe PP5Uebung1 Development Win64 -project="C:/Users/Student/Documents/PraktischeUebung5/uebung1/PP5Uebung1/PP5Uebung1.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.03.31-13.50.01:950][  0]@progress push 5%
+[2016.03.31-13.50.02:250][  0]@progress pop
+[2016.03.31-13.50.04:052][  0]Performing 2 actions (4 in parallel)
+[2016.03.31-13.50.04:153][  0]MyCharacter.cpp
+[2016.03.31-13.50.04:153][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): error C2228: Links von ".Ammo" m?ssen sich in einer Klasse/Struktur/Union befinden
+[2016.03.31-13.50.04:153][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): note: Typ ist "AMyCharacter *const "
+[2016.03.31-13.50.04:153][  0]C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Source\PP5Uebung1\MyCharacter.cpp(34): note: Wollten Sie stattdessen "->" verwenden?
+[2016.03.31-13.50.04:355][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.31-13.50.04:355][  0]ERROR: UBT ERROR: Failed to produce item: C:\Users\Student\Documents\PraktischeUebung5\uebung1\PP5Uebung1\Binaries\Win64\UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.50.04:455][  0]Total build time: 4,88 seconds
+[2016.03.31-13.50.04:731][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-PP5Uebung1.dll
+[2016.03.31-13.50.06:282][  0]LogExit: Preparing to exit.
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.31-13.50.06:282][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.31-13.50.06:283][  0]LogExit: Exiting.
+[2016.03.31-13.50.06:284][  0]Log file closed, 03/31/16 15:50:06
